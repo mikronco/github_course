@@ -17,5 +17,6 @@ y = 3*X[:,3] + 6*X[:,1] + np.random.normal(0,0.5,N) + 5
 plt.scatter(X[:,3], y)
 plt.scatter(X[:,1], y)
 plt.scatter(X[:,0], y)
+plt.scatter(X[:,2], y)
 plt.show()
 
